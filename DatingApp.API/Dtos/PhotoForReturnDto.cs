@@ -13,5 +13,7 @@ namespace DatingApp.API.Dtos
         public DateTime DateAdded { get; set; }
 
         public string PublicId { get; set; }
+
+        public Boolean IsMain { get; set; }
     }
 }
